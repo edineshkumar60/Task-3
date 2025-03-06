@@ -8,7 +8,7 @@ attempts=0
 print("Guess the number between 1 to 50")
 
 while True:
-    guess = input(input("Enter your Guess : "))
+    guess = int(input("Enter your Guess : "))
     attempts+=1
     if guess>number:
         print("Guess to High")
